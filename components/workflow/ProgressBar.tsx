@@ -1,0 +1,1 @@
+export function ProgressBar({ completed, total }: { completed: number; total: number }) { const pct = Math.round((completed / total) * 100); return <div className="progress-wrap"><div className="progress-label"><span>전체 진행률</span><strong>{pct}%</strong></div><div className="progress"><span style={{ width: `${pct}%` }} /></div></div>; }
