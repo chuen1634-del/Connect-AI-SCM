@@ -3,3 +3,4 @@ node_modules/
 .next-dev/
 .env.local
 .env*.local
+.vercel
